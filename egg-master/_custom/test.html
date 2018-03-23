@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script src="axios.min.js"></script>
+  <script>
+    // axios.get('http://localhost:7001/v1/recordsMaintain/1')
+    //   .then(function (response) {
+    //     console.log(response);
+    //   })
+    //   .catch(function (error) {
+    //     console.log(error);
+    //   });
+    // axios.delete('http://localhost:7001/v1/recordsMaintain/2')
+    axios.put('http://localhost:7001/v1/rules', {
+      pub_company_id: '5a586c6d584aee0007d04dff',
+      pub_data_name: '清水池出水余氯仪',
+      rule: '<|20|1',
+    })
+    //   .then(function (response) {
+    //     console.log(response);
+    //   })
+    //   .catch(function (error) {
+    //     console.log(error);
+    //   });
+    // axios.post('http://localhost:7001/v1/recordsTransport', {
+    //   village_id: 80,
+    // })
+    //   .then(function (response) {
+    //     console.log(response);
+    //   })
+    //   .catch(function (error) {
+    //     console.log(error);
+    //   });
+  
+  </script>
+</body>
+</html>

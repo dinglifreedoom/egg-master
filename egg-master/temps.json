@@ -1,0 +1,72 @@
+{ request: { method: 'GET',
+    url: '/api/session',
+    header: { host: '192.168.1.199: 7001',
+       connection: 'keep-alive',
+       pragma: 'no-cache',
+       'cache-control': 'no-cache',
+       accept: 'application/json, text/plain, */*',
+       origin: 'http: //192.168.1.133:8080',
+       'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+       'content-type': 'application/x-www-form-urlencoded;charset=utf-8',
+       referer: 'http: //192.168.1.133:8080/',
+       'accept-encoding': 'gzip, deflate, sdch',
+       'accept-language': 'zh-CN,zh;q=0.8',
+       cookie: '__guid=82259542.146498710173323360.1511861992330.632; Hm_lvt_765ecde8c11b85f1ac5f168fa6e6821f=1511861993; csrfToken=dbJoFeu3AkSL-Lyg19u10lh0'
+    }
+  },
+ response: { status: 404,
+    message: 'Not Found',
+    header: { 'accept-ranges': 'bytes'
+    }
+  },
+ app: { env: 'local',
+    name: 'intelligent-api',
+    baseDir: 'C:\\Users\\MichaelLu\\git\\gitee.com\\intelligent-api',
+    subdomainOffset: 2,
+    config: '<egg config>',
+    controller: '<egg controller>',
+    serviceClasses: '<egg serviceClasses>',
+    middlewares: '<egg middlewares>',
+    httpclient: '<egg httpclient>',
+    loggers: '<egg loggers>'
+  },
+ originalUrl: '/api/session',
+ req: '<original node req>',
+ res: '<original node res>',
+ socket: '<original node socket>'
+}
+
+{ request: { method: 'GET',
+     url: '/api/session',
+     header: { host: '127.0.0.1: 7001',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie: 'csrfToken=qzrwDGyJMSO3BQvpvO5KA5gF'
+    }
+  },
+  response: { status: 404,
+     message: 'Not Found',
+     header: { 'accept-ranges': 'bytes'
+    }
+  },
+  app: { env: 'local',
+     name: 'intelligent-api',
+     baseDir: 'C:\\Users\\MichaelLu\\git\\gitee.com\\intelligent-api',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     serviceClasses: '<egg serviceClasses>',
+     middlewares: '<egg middlewares>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>'
+  },
+  originalUrl: '/api/session',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
